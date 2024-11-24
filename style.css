@@ -207,3 +207,49 @@ body {
   bottom: 25%;
   left: 15%;
 }
+
+/* five container */
+#five {
+  display: flex;
+  position: absolute;
+  padding: 3%;
+}
+.five-img {
+  width: 70%;
+  height: 100%;
+  background-image: url(./assets/asset18.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  margin: 0 2rem;
+}
+
+.five-shop {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #f0efeb;
+  height: 40%;
+  width: 30%;
+  border-radius: 20px;
+  top: 30%;
+  right: 10%;
+}
+.five-shop h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.five-shop button {
+  width: 10vw;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #000;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+}
