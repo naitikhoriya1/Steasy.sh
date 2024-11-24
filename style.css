@@ -42,7 +42,74 @@ body {
 .content video {
   width: 90%;
 }
+#two {
+  /* padding: 10rem; */
+  height: 170vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#two h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 5rem;
+  /* padding: 2rem 10rem; */
+}
 
+.grid-container {
+  position: relative;
+  width: 600px; /* Container width */
+  height: 500px; /* Container height */
+}
+
+.grid-item {
+  position: absolute;
+  border-radius: 12px; /* Smooth rounded corners */
+  overflow: hidden;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Positioning and sizing each grid-item */
+.grid-item:nth-child(1) {
+  width: 60%;
+  height: 100%;
+  left: -40%;
+  top: 0;
+}
+
+.grid-item:nth-child(2) {
+  width: 65%;
+  height: 55%;
+  top: -10%;
+  left: 30%;
+}
+
+.grid-item:nth-child(3) {
+  width: 50%;
+  height: 40%;
+  top: 5%;
+  right: -55%;
+}
+
+.grid-item:nth-child(4) {
+  width: 60%;
+  height: 50%;
+  bottom: 0;
+  right: -65%;
+}
+
+.grid-item:nth-child(5) {
+  width: 70%;
+  height: 80%;
+  bottom: -30%;
+  right: 0;
+}
 .content3 {
   width: 100%;
   height: 100vh;
@@ -119,7 +186,7 @@ body {
   width: 20vw;
   height: 13vw;
   border-radius: 20px;
-  background-image: url(./assets/asset\ 3.jpeg);
+  background-image: url(./assets/asset3.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -128,4 +195,15 @@ body {
 
 #four {
   padding-right: 5rem;
+}
+
+.r-img-1 {
+  background-image: url(./assets/asset12.jpeg);
+  top: 5%;
+  left: 40%;
+}
+.r-img-3 {
+  background-image: url(./assets/asset14.jpeg);
+  bottom: 25%;
+  left: 15%;
 }
