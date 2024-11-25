@@ -2,7 +2,7 @@
 var tl = gsap.timeline({
   scrollTrigger: {
     trigger: "#two",
-    markers: true,
+    // markers: true,
     start: "50% 0%",
     end: "55% 0%",
     scrub: 1,
@@ -18,7 +18,7 @@ tl.to(".main", {
 var t2 = gsap.timeline({
   scrollTrigger: {
     trigger: "#three",
-    markers: true,
+    // markers: true,
     start: "50% 0%",
     end: "55% 0%",
     scrub: 1,
@@ -34,7 +34,7 @@ t2.to(".main", {
 var t2 = gsap.timeline({
   scrollTrigger: {
     trigger: "#four",
-    markers: true,
+    // markers: true,
     start: "50% 0%",
     end: "55% 0%",
     scrub: 1,
